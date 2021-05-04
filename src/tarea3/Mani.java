@@ -14,13 +14,29 @@ public class Mani {
         
          Administrador administrador = new Administrador();
          
-         administrador.setDomicilio("hola");
-         System.out.println("tu nombre es"+ administrador.getDomicilio());
+         administrador.setDomicilio("5 de mayo ");
+         System.out.println("Direccion:"+ administrador.getDomicilio());
+         administrador.setNombre("Juan Carlos Rodriguez Perez");
+         System.out.println("Nombre:"+ administrador.getNombre());
+         administrador.setEdad(18);
+         System.out.println("Edad:"+ administrador.getEdad());
          
          Usu usu = new  Usu();
-         usu.setDomicilio("popo");
-         System.out.println("jaja"+ usu.getDomicilio());
-          
+         usu.setDomicilio("16 de septiembre ");
+         System.out.println("Direccion:"+ usu.getDomicilio());
+         usu.setNombre("Samuel  Gonzales Ramirez   ");
+         System.out.println("Nombre:"+ usu.getNombre());
+          usu.setEdad(20);
+         System.out.println("Edad:"+ usu.getEdad());
+         
+         Clien cli = new  Clien();
+         cli.setDomicilio("Durazno");
+         System.out.println("Direccion:"+ cli.getDomicilio());
+         cli.setNombre("Guillermo Emanuel Lopez Palma");
+         System.out.println("Nombre:"+ cli.getNombre());
+          cli.setEdad(19);
+         System.out.println("Edad:"+ cli.getEdad());
+         
     }
         
     
